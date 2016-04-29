@@ -1,0 +1,258 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magento.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magento.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2006-2014 X.commerce, Inc. (http://www.magento.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php
+/**
+ * Product list template
+ *
+ * @see Mage_Catalog_Block_Product_List
+ */
+?>
+<?php
+    $_productCollection=$this->getLoadedProductCollection();
+    $_helper = $this->helper('catalog/output');
+    $setting = Mage::helper('bigshopsettings');
+	$checkclick = $setting->getProductsGrid_UseClickCat();
+    $params = array();
+	foreach($_GET as $key => $p){
+		$params[] = $key.'='.$p;
+	}
+	if($category = Mage::registry('current_category')){
+		$returnUrl = $category->getUrl().'?'.implode('&',$params);
+	} else {
+		if(Mage::app()->getRequest()->getControllerName()!='advanced')
+			$returnUrl = $this->getUrl('catalogsearch/result').'?'.implode('&',$params);	
+		else 
+			$returnUrl = $this->getUrl('catalogsearch/advanced/result').'?'.implode('&',$params);
+	}
+		
+	$returnUrl = Mage::helper('core/url')->urlEncode($returnUrl);
+    
+    $layer = Mage::getSingleton('catalog/layer');
+    $current_cate = $layer->getCurrentCategory();
+    $currentCategoryId= $current_cate->getId();
+    
+    $current_cate = Mage::registry('current_category');
+    $countproducts = Mage::getModel('catalog/category')->load($currentCategoryId)
+        ->getProductCollection()
+        ->addAttributeToSelect('entity_id')
+        ->addAttributeToFilter('status', 1)
+        ->addAttributeToFilter('visibility', 4);
+?>
+<div class="category-list-products">
+<?php if(!$_productCollection->count()): ?>
+    <p class="note-msg"><?php echo $this->__('There are no products matching the selection.') ?></p>
+<?php else: ?>
+    <?php echo $this->getToolbarHtml() ?>
+    <div class="category-products" id="category-products-ajax">    
+        <?php // List mode ?>
+        <?php if($this->getMode()!='grid'): ?>
+        <?php $_iterator = 0; ?>
+        <ol class="products-list list-infinite" id="products-list">
+        <?php foreach ($_productCollection as $_product): ?>
+        <?php $_product_fix = Mage::getModel('catalog/product')->load($_product->getId());?>
+            <li class="item-products item box <?php if( ++$_iterator == sizeof($_productCollection) ): ?> last<?php endif; ?>" >
+                
+                <?php // Product Image ?>
+                <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_product_fix, 'small_image'), null, true) ?>" class="product-image">
+                <?php Mage::helper('productlabels')->display($_product_fix);?>
+                <img 
+    				src="<?php echo $this->helper('catalog/image')->init($_product_fix, 'small_image')->resize($setting->getProductsList_Width(225), $setting->getProductsList_Height(225)); ?>" 
+    				<?php if ($alt_img = $setting->getProductsList_AltImg()): ?> 
+    				rel="<?php echo $alt_img ?>" 
+    				data-alt-src="<?php echo $this->helper('catalog/image')->init($_product_fix, $alt_img)->resize($setting->getProductsList_Width(225), $setting->getProductsList_Height(225)); ?>"
+    				<?php endif ?>
+    				alt="<?php echo $this->stripTags($this->getImageLabel($_product_fix, 'small_image'), null, true) ?>" /></a>
+                <?php // Product description ?>
+                <div class="product-shop">
+                    <div class="f-fix">
+                        <?php if($_product->getRatingSummary()): ?>
+                            <?php echo $this->getReviewsSummaryHtml($_product, 'short') ?>
+                        <?php endif; ?>
+                        <?php $_productNameStripped = $this->stripTags($_product_fix->getName(), null, true); ?>
+                        <h2 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $_productNameStripped; ?>"><?php echo $_helper->productAttribute($_product_fix, $_product_fix->getName() , 'name'); ?></a></h2>
+                        <div class="desc std">
+                            <?php echo $_helper->productAttribute($_product_fix, $_product_fix->getShortDescription(), 'short_description') ?>
+                            <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $_productNameStripped ?>" class="link-learn"><?php echo $this->__('Learn More') ?></a>
+                        </div>                    
+                        <?php echo $this->getPriceHtml($_product_fix, true) ?>
+                        <div class="actions">
+                            <?php if($_product_fix->isSaleable()): ?>
+                                <button type="button" title="<?php echo $this->__('Add to Cart') ?>" class="button btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product_fix) ?>')"><span><span><?php echo $this->__('Add to Cart') ?></span></span></button>
+                            <?php else: ?>
+                                <p class="availability out-of-stock"><span><?php echo $this->__('Out of stock') ?></span></p>
+                            <?php endif; ?>                    
+                            <ul class="add-to-links">
+                                <?php if($_compareUrl=$this->getUrl('catalog/product_compare/add',array('product'=>$_product_fix->getId(),Mage_Core_Controller_Front_Action::PARAM_NAME_URL_ENCODED=>$returnUrl))): ?>
+                                    <li><span class="separator">|</span> <a href="<?php echo $_compareUrl ?>" class="link-compare" title="<?php echo $this->__('Add to Compare') ?>"><?php echo $this->__('Add to Compare') ?></a></li>
+                                <?php endif; ?>
+                                <?php if ($this->helper('wishlist')->isAllow()) : ?>
+                                    <li><a href="<?php echo $this->helper('wishlist')->getAddUrl($_product_fix) ?>" class="link-wishlist" title="<?php echo $this->__('Add to Wishlist') ?>"><?php echo $this->__('Add to Wishlist') ?></a></li>
+                                <?php endif; ?>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        <?php endforeach; ?>
+        </ol>
+        <script type="text/javascript">decorateList('products-list', 'none-recursive')</script>
+    
+        <?php else: ?>
+    
+        <?php // Grid Mode ?>
+    
+        <?php $_collectionSize = $_productCollection->count() ?>
+        <?php if ($_collectionSize > 0): ?>
+    	<ul class="products-grid list-infinite">
+            <?php $j=0; $i=0; foreach ($_productCollection as $_product): ?>
+            <?php $_product_fix = Mage::getModel('catalog/product')->load($_product->getId());?>
+                <li class="item-products item box" style = "width :<?php echo ($setting->getProductsGrid_Width(280))?>px;">
+                    
+                    <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_product_fix, 'small_image'), null, true) ?>" class="product-image">
+                    <?php Mage::helper('productlabels')->display($_product_fix);?>
+                    <img 
+    				src="<?php echo $this->helper('catalog/image')->init($_product_fix, 'small_image')->resize($setting->getProductsGrid_Width(280), $setting->getProductsGrid_Height(280)); ?>" 
+    				<?php if ($alt_img = $setting->getProductsGrid_AltImg()): ?> 
+    				rel="<?php echo $alt_img ?>" 
+    				data-alt-src="<?php echo $this->helper('catalog/image')->init($_product_fix, $alt_img)->resize($setting->getProductsGrid_Width(280), $setting->getProductsGrid_Height(280)); ?>"
+    				<?php endif ?>
+    				alt="<?php echo $this->stripTags($this->getImageLabel($_product_fix, 'small_image'), null, true) ?>" /></a>
+                    
+                    <div class="product-shop">
+    					<div class="f-fix">
+                            <h2 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($_product_fix->getName(), null, true) ?>"><?php echo $_helper->productAttribute($_product_fix, $_product_fix->getName(), 'name') ?></a></h2>
+                            <div class="price_review">
+                                <?php echo $this->getPriceHtml($_product_fix, true) ?>
+                                <?php if($_product->getRatingSummary()): ?>
+                                <?php echo $this->getReviewsSummaryHtml($_product, 'short') ?>
+                                <?php endif; ?>                        
+                            </div>
+                            <div class="actions js-addcart hover-slide" name="product_<?php echo $j;?>">
+                                <?php if($_product_fix->isSaleable()): ?>
+                                    <button type="button" title="<?php echo $this->__('Add to Cart') ?>" class="button btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')"><span><span><?php echo $this->__('Add to Cart') ?></span></span></button>
+                                <?php else: ?>
+                                    <p class="availability out-of-stock"><span><?php echo $this->__('Out of stock') ?></span></p>
+                                <?php endif; ?>
+                                <ul class="js-addtolink add-to-links">
+                                    <?php if($_compareUrl=$this->getUrl('catalog/product_compare/add',array('product'=>$_product_fix->getId(),Mage_Core_Controller_Front_Action::PARAM_NAME_URL_ENCODED=>$returnUrl))): ?>
+                                        <li><span class="separator">|</span> <a href="<?php echo $_compareUrl ?>" class="link-compare" title="<?php echo $this->__('Add to Compare') ?>"><?php echo $this->__('Add to Compare') ?></a></li>
+                                    <?php endif; ?>
+                                    <?php if ($this->helper('wishlist')->isAllow()) : ?>
+                                        <li><a href="<?php echo $this->helper('wishlist')->getAddUrl($_product_fix) ?>" class="link-wishlist" title="<?php echo $this->__('Add to Wishlist') ?>"><?php echo $this->__('Add to Wishlist') ?></a></li>
+                                    <?php endif; ?>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+        <?php $j++; endforeach ?>
+    		</ul>
+    	<?php endif; ?>
+        <?php endif; ?>
+        
+        <div <?php if($setting->getProductsGrid_EnableAjaxscroll() && Mage::registry('current_category')):?><?php echo "style='display:none'"?><?php endif; ?> class="toolbar-bottom">
+            <?php echo $this->getToolbarHtml() ?>
+        </div>
+    </div>
+    <?php if(Mage::registry('current_category')):?>
+        <?php if($setting->getProductsGrid_EnableAjaxscroll()):?>
+            <?php if($countproducts->count() > 14):?>
+                <p class="load-more-image" <?php if($checkclick =="scroll") echo "style='display:none;'";  ?>>
+                	<a class="load-more"  id="category-products-ajax-next" href="#"><?php echo $this->__('Load more')?></a>
+                </p>
+                <?php 
+                	$id = Mage::getModel('catalog/layer')->getCurrentCategory()->getId();
+                	$url = 'catalog/category/view/id/'.$id;
+                	
+                	// Get the default setting for grid or list mode
+                	$productListMode = Mage::getStoreConfig('catalog/frontend/list_mode');
+                	$grid_per_page = Mage::getStoreConfig('catalog/frontend/grid_per_page');
+                	$list_per_page = Mage::getStoreConfig('catalog/frontend/list_per_page');
+                	if ($productListMode == 'grid-list'){
+                		$productListMode = 'grid';
+                		$per_page = $grid_per_page;
+                		$max_page = ceil(sizeof($_productCollection)/$per_page);
+                		//echo  ceil(sizeof($_productCollection)/$per_page);
+                	}elseif($productListMode == 'list-grid'){
+                		$productListMode = 'list';
+                		$per_page = $list_per_page;
+                	}	
+                	// Check if this setting is overwritten by the user
+                	if ($this->getRequest()->getParam('mode')) {
+                		if($this->getRequest()->getParam('mode') == 'grid'){
+                			$productListMode = 'grid';
+                			$per_page = $grid_per_page;
+                		}else{
+                			$productListMode = 'list';
+                			$per_page = $list_per_page;
+                		}
+                	}
+                ?>
+                
+                <script type="text/javascript">
+                	if($$('.toolbar-bottom .toolbar-option .pages ol li a.page_ajax')){
+                		jQuery('#category-products-ajax .list-infinite').infinitescroll({
+                			navSelector  	: "#category-products-ajax-next:last",
+                			nextSelector 	: "#category-products-ajax-next:last",
+                			itemSelector 	: "#category-products-ajax .list-infinite li.item",
+                			dataType	 	: 'html',
+                            loading: {
+            					img				: "<?php echo $this->getSkinUrl("images/ajax-loader.gif") ?>",
+            				},
+                			maxPage         : $$('.toolbar-bottom .toolbar-option .pages ol li a.page_ajax').length + 1,
+                			<?php if($checkclick == "click"):?>
+                			state			: {
+                				isPaused : true
+                			},
+                			<?php endif;?>
+                			path: function(index) {
+                			    var tempString = $$('.toolbar-bottom .toolbar-option .pages ol li a.page_ajax').first().readAttribute('href');
+                                var lengthString = tempString.length;
+                                var resultString = tempString.substr(0, lengthString-1);
+                				return resultString + index;
+                			}
+                		}, function(newElements, data, url){
+                			<?php if($checkclick == "click"):?>
+                				jQuery("#category-products-ajax-next:last").show();
+                			<?php endif;?>
+                			setTimeout(function(){
+                			    afterLoadAjax('#category-products-ajax');
+                            },500);
+                		});
+                		<?php if($checkclick == "click"):?>
+                		jQuery('#category-products-ajax-next').click(function(){
+                			jQuery('#category-products-ajax .list-infinite').infinitescroll('retrieve');
+                			return false;
+                		});
+                		<?php endif;?>
+                	}	
+                </script>
+            <?php endif; ?>
+        <?php endif;?>
+    <?php endif;?>
+<?php endif;?>
+</div>

@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sample_data>
+  <staticblock>
+    <block id="6">
+      <title><![CDATA[GalaBigShop Area01  Home Top Ad]]></title>
+      <identifier><![CDATA[galabigshop_area01_home_top_ad]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="special-gift" style="background-color: #f06287;">
+<p><span class="gift"><img src="{{skin url='images/icon_gift.png'}}" alt="sample-banner" /></span>Today we have a special gift fot potential customers. <a title="Login to your account" href="{{config path="web/secure/base_url"}}customer/account/">Login to your account</a> and see how to get one <span class="close"><img src="{{skin url='images/icons_close.png'}}" alt="sample-banner" /></span></p>
+</div>
+<div class="home-top-information">
+<div class="grid_8 alpha">
+<p><img src="{{skin url='images/icon_info_search.png'}}" alt="sample-banner" /></p>
+<p class="info-title">Search for everything</p>
+<p class="phone">Temporius auterm quibusdam</p>
+</div>
+<div class="grid_8">
+<p><img src="{{skin url='images/icon_info_shipping.png'}}" alt="sample-banner" /></p>
+<p class="info-title">Free shipping &amp; return</p>
+<p class="phone">Temporius auterm quibusdam</p>
+</div>
+<div class="grid_8 omega">
+<p><img src="{{skin url='images/icon_info_support.png'}}" alt="sample-banner" /></p>
+<p class="info-title">24/7 Help &amp; Support</p>
+<p class="phone">Temporius auterm quibusdam</p>
+</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="9">
+      <title><![CDATA[GalaBigShop Area04 Popular Seaarch]]></title>
+      <identifier><![CDATA[galabigshop_area04_popular_search]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div id="toogle_footer_info" class="footer_info">
+<div class="footer-search-cloud">{{block type="catalogsearch/term" name="catalogsearch.term" template="catalogsearch/term.phtml}}</div>
+<div id="footer-information" class="box text">
+<div class="grid_6 alpha content">
+<p class="h5">about vineyard</p>
+<ul>
+<li><a href="{{store direct_url=''}}customer/account/">Your Account</a></li>
+<li><a href="#">Track Your</a></li>
+<li><a href="{{store direct_url=''}}sales/order/history/">Order</a></li>
+<li><a href="#">View Past Order</a></li>
+<li><a href="#">View Shipping</a></li>
+<li><a href="{{store direct_url=''}}customer/address/">Address Book</a></li>
+</ul>
+</div>
+<div class="grid_6 content">
+<p class="h5">why buy from us</p>
+<ul>
+<li><a href="{{store direct_url=''}}checkout/cart/">View Cart</a></li>
+<li><a href="{{store direct_url=''}}customer/account/">My Account</a></li>
+<li><a href="{{store direct_url=''}}sales/order/history/">Order Status</a></li>
+<li><a href="#">Shop By Brand</a></li>
+<li><a href="#">Trade-in Program</a></li>
+</ul>
+</div>
+<div class="grid_6 content">
+<p class="h5">assistance</p>
+<ul>
+<li><a href="#">Lorem ispum dolor</a></li>
+<li><a href="#">Customer Service</a></li>
+<li><a href="#">Lorem ispum dolor</a></li>
+<li><a href="#">Rebate Center</a></li>
+<li><a href="#">Testimonial</a></li>
+</ul>
+</div>
+<div class="grid_6 omega content">
+<p class="h5">store locations</p>
+<ul>
+<li><a href="#">Lorem ispum dolor</a></li>
+<li><a href="#">Customer Service</a></li>
+<li><a href="#">Lorem ispum dolor</a></li>
+<li><a href="#">Rebate Center</a></li>
+<li><a href="#">Testimonial</a></li>
+</ul>
+</div>
+</div>
+<div class="follow_news">
+<div class="follow">
+<p class="info-title">Follow us</p>
+<ul class="none">
+<li><a title="facebook" href="#"><span class="icon facebook">Facebook</span></a></li>
+<li><a title="twitter" href="#"><span class="icon twitter">Twitter</span></a></li>
+<li><a title="pinterest" href="#"><span class="icon pinterest">Pinterest</span></a></li>
+<li><a title="rss" href="#"><span class="icon rss">Rss</span></a></li>
+</ul>
+</div>
+<div class="news">
+<p class="info-title">Newsletter Sign-Up</p>
+{{block type="newsletter/subscribe" name="left.newsletter" template="newsletter/subscribe.phtml"}}</div>
+</div>
+</div>
+<div id="display_footer_info" class="footer_toogle_title"><a href="javascript:void(0)">Show</a></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="10">
+      <title><![CDATA[GalaBigShop Sidebar Category Banner]]></title>
+      <identifier><![CDATA[galabigshop_sidebar_category_banner]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div><a title="sample_banner" href="#"><img class="fluid" src="{{media url='wysiwyg/banner_left.png'}}" alt="sample_banner" /></a></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="11">
+      <title><![CDATA[GalaBigShop Checkout Sidebar Banner]]></title>
+      <identifier><![CDATA[galabigshop_checkout_sidebar_banner]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<p><a title="sample_banner" href="#"><img class="fluid" src="{{media url="wysiwyg/banner_login.png"}}" alt="sample_banner" /></a></p>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="12">
+      <title><![CDATA[GalaBigShop Login Sidebar Banner]]></title>
+      <identifier><![CDATA[galabigshop_login_sidebar_banner]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<p class="block">Your account are being protected by</p>
+<p class="block"><a title="sample_banner" href="#"><img class="fluid" src="{{media url="wysiwyg/banner_ad.png"}}" alt="sample_banner" /></a></p>
+<p><a title="sample_banner" href="#"><img class="fluid" src="{{media url="wysiwyg/banner_login.png"}}" alt="sample_banner" /></a></p>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="13">
+      <title><![CDATA[GalaBigShop Sample Block  Area 06]]></title>
+      <identifier><![CDATA[galabigshop_sample_block_area06]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="box">
+<p>Sample Block Here ...</p>
+<p>This is a sample content in position EM Area 06. You can add your own content by insert widget into position EM Area 06</p>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="14">
+      <title><![CDATA[GalaBigShop Sample Block Area 07]]></title>
+      <identifier><![CDATA[galabigshop_sample_block_area07]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="box">
+<p>Sample Block Here ...</p>
+<p>This is a sample content in position EM Area 07. You can add your own content by insert widget into position EM Area 07</p>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="15">
+      <title><![CDATA[GalaBigShop Sample Block Area 08]]></title>
+      <identifier><![CDATA[galabigshop_sample_block_area08]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="box">
+<p>Sample Block Here ...</p>
+<p>This is a sample content in position EM Area 08. You can add your own content by insert widget into position EM Area 08</p>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="16">
+      <title><![CDATA[GalaBigShop Sample Block Area12]]></title>
+      <identifier><![CDATA[galabigshop_sample_block_area12]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="box">
+<p>Sample Block Here ...</p>
+<p>This is a sample content in position EM Area 12. You can add your own content by insert widget into position EM Area 12</p>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="17">
+      <title><![CDATA[GalaBigShop Sample Block Area 10]]></title>
+      <identifier><![CDATA[galabigshop_sample_block_area10]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="box">
+<p>Sample Block Here ...</p>
+<p>This is a sample content in position EM Area 10. You can add your own content by insert widget into position EM Area 10</p>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="18">
+      <title><![CDATA[GalaBigShop Sample Block Area13]]></title>
+      <identifier><![CDATA[galabigshop_sample_block_area13]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="box">
+<p>Sample Block Here ...</p>
+<p>This is a sample content in position EM Area 13. You can add your own content by insert widget into position EM Area 13</p>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="19">
+      <title><![CDATA[GalaBigShop Sample Block Alert Url]]></title>
+      <identifier><![CDATA[galabigshop_sample_block_alert_url]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="box">
+<p>Sample Block Here ...</p>
+<p>This is a sample content in position Alert Url. You can add your own content by insert widget into position Alert Url</p>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="20">
+      <title><![CDATA[GalaBigShop Sample Block Extra Hint]]></title>
+      <identifier><![CDATA[galabigshop_sample_block_extra_hint]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="box">
+<p>Sample Block Here ...</p>
+<p>This is a sample content in position Extra Hint. You can add your own content by insert widget into position Extra Hint</p>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="21">
+      <title><![CDATA[GalaBigShop Sample Block Product View Short Description After]]></title>
+      <identifier><![CDATA[galabigshop_sample_block_product_view_short_description_after]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="box">
+<p>Sample Block Here ...</p>
+<p>This is a sample content in position Product View Short Description After. You can add your own content by insert widget into position Product View Short Description After</p>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="22">
+      <title><![CDATA[GalaBigShop Product Collateral Sample]]></title>
+      <identifier><![CDATA[galabigshop_product_collateral_sample]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="box">
+<p>Sample Block Here ...</p>
+<p>A sample of additional collateral tabs that you can insert as a widget in static the backend.</p>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+  </staticblock>
+  <cmspage>
+    <page id="8">
+      <title><![CDATA[GalaBigShop Magento Theme - Homepage]]></title>
+      <identifier><![CDATA[galabigshop_home]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div>&nbsp;&nbsp;</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+      <root_template><![CDATA[one_column]]></root_template>
+      <meta_keywords><![CDATA[]]></meta_keywords>
+      <meta_description><![CDATA[]]></meta_description>
+      <content_heading><![CDATA[]]></content_heading>
+      <sort_order><![CDATA[0]]></sort_order>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <custom_theme><![CDATA[]]></custom_theme>
+      <custom_root_template><![CDATA[]]></custom_root_template>
+      <custom_layout_update_xml><![CDATA[]]></custom_layout_update_xml>
+      <custom_theme_from><![CDATA[]]></custom_theme_from>
+      <custom_theme_to><![CDATA[]]></custom_theme_to>
+    </page>
+    <page id="9">
+      <title><![CDATA[GalaBigShop Typography]]></title>
+      <identifier><![CDATA[galabigshop_typography]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<h1>Typography</h1>
+<h2>General Elements</h2>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<ul>
+<li>Bullet List 1</li>
+<ul>
+<li>Bullet List 1.1</li>
+<li>Bullet List 1.2</li>
+<li>Bullet List 1.3</li>
+<li>Bullet List 1.4</li>
+</ul>
+<li>Bullet List 2</li>
+<li>Bullet List 3</li>
+<li>Bullet List 4</li>
+</ul>
+<ol>
+<li>Number List 1</li>
+<ol>
+<li>Number List 1.1</li>
+<li>Number List 1.2</li>
+<li>Number List 1.3</li>
+<li>Number List 1.4</li>
+</ol>
+<li>Number List 2</li>
+<li>Number List 3</li>
+<li>Number List 4</li>
+</ol><dl><dt>Definition title dt</dt><dd>Defination description dd</dd><dt>Definition title dt</dt><dd>Defination description dd</dd></dl>
+<p><code>Code tag:&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</code></p>
+<blockquote>
+<p>block quote&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</blockquote>
+<div class="box f-left">element with class <strong>.f-left</strong></div>
+<div class="box f-right">element with class <strong>.f-right</strong></div>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h2>Tables</h2>
+<p>Table with class <strong>.data-table</strong></p>
+<table class="data-table" style="width: 100%;" border="0">
+<thead>
+<tr><th>THEAD TH</th><th>THEAD TH</th><th>THEAD TH</th><th>THEAD TH</th><th>THEAD TH</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+</tr>
+<tr>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+</tr>
+<tr>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h2>Custom CSS Classes</h2>
+<p class="small">tag <strong>small</strong> and class <strong>.small</strong></p>
+<p class="underline">element with class <strong>.underline</strong></p>
+<p><strong>ul.none</strong> and <strong>ol.none</strong>:</p>
+<ul class="none">
+<li>Bullet List 1</li>
+<ul>
+<li>Bullet List 1.1</li>
+<li>Bullet List 1.2</li>
+<li>Bullet List 1.3</li>
+<li>Bullet List 1.4</li>
+</ul>
+<li>Bullet List 2</li>
+<li>Bullet List 3</li>
+<li>Bullet List 4</li>
+</ul>
+<p><strong>ul.hoz</strong> and <strong>ol.hoz</strong>:</p>
+<ul class="hoz">
+<li>Bullet List 1</li>
+<li>Bullet List 2</li>
+<li>Bullet List 3</li>
+<li>Bullet List 4</li>
+</ul>
+<div class="box">
+<p>paragraph with class <strong>.box</strong>:</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+<p class="bottom">Paragraph with class <strong>.bottom</strong> always has margin-bottom = 0.</p>
+<p>Add class <strong>.hide-lte2</strong> to hide element when screen's width less than 1280px.</p>
+<p class="box hide-lte2">This block will disappear when resize window less than 1280px</p>
+<p>Add class <strong>.hide-lte1</strong> to hide element when screen's width less than 980px.</p>
+<p class="box hide-lte1">This block will disappear when resize window less than 980px</p>
+<p>Add class <strong>.hide-lte0</strong> to hide element when screen's width less than 760px.</p>
+<p class="box hide-lte0">This block will disappear when resize window less than 760px</p>
+<p>&nbsp;</p>
+<h2>Icons</h2>
+<table class="data-table" border="0">
+<tbody>
+<tr>
+<td align="center" valign="top">
+<p>.icon.facebook</p>
+<p class="follow"><a title="facebook" href="#"><span class="icon facebook">span.icon.facebook</span></a></p>
+</td>
+<td align="center" valign="top">
+<p>.icon.twitter</p>
+<p class="follow"><a title="twitter" href="#"><span class="icon twitter">span.icon.twitter</span></a></p>
+</td>
+<td align="center" valign="top">
+<p>.icon.pinterest</p>
+<p class="follow"><a title="pinterest" href="#"><span class="icon pinterest">span.icon.pinterest</span></a></p>
+</td>
+<td align="center" valign="top">
+<p>.icon.rss</p>
+<p class="follow"><a title="rss" href="#"><span class="icon rss">span.icon.rss</span></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<table class="data-table" border="0">
+<tbody>
+<tr>
+<td align="center" valign="top">
+<p>.icon-info-search</p>
+<p class="home-top-information"><img src="{{skin url='images/icon_info_search.png'}}" alt="sample-banner" /></p>
+</td>
+<td align="center" valign="top">
+<p>.icon-info-shipping</p>
+<p class="home-top-information"><img src="{{skin url='images/icon_info_shipping.png'}}" alt="sample-banner" /></p>
+</td>
+<td align="center" valign="top">
+<p>.icon-info-support</p>
+<p class="home-top-information"><img src="{{skin url='images/icon_info_support.png'}}" alt="sample-banner" /></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h2>Label</h2>
+<table class="data-table" border="0">
+<tbody>
+<tr>
+<td align="center" valign="top">
+<p>.label.new</p>
+<ul style="padding-left: 0;">
+<li style="position: relative; list-style: none; height: 50px;">
+<span class="productlabels_icons"><span class="label new"><span>New</span></span></span>
+</li>
+</ul>
+</td>
+<td align="center" valign="top">
+<p>.label.bestseller</p>
+<ul style="padding-left: 0;">
+<li style="position: relative; list-style: none; height: 50px;">
+<span class="productlabels_icons"><span class="label bestseller"><span>Best selling</span></span></span>
+</li>
+</ul>
+</td>
+<td align="center" valign="top">
+<p>.label.special</p>
+<ul style="padding-left: 0;">
+<li style="position: relative; list-style: none; height: 50px;">
+<span class="productlabels_icons"><span class="label special"><span>33% off</span></span></span>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>image with class <strong>.fluid</strong>:</p>
+<p><img class="fluid" title="image with class .fluid" src="{{media url="wysiwyg/banner_left.png"}}" alt="image with class .fluid" /></p>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+      <root_template><![CDATA[one_column]]></root_template>
+      <meta_keywords><![CDATA[]]></meta_keywords>
+      <meta_description><![CDATA[]]></meta_description>
+      <content_heading><![CDATA[]]></content_heading>
+      <sort_order><![CDATA[0]]></sort_order>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <custom_theme><![CDATA[]]></custom_theme>
+      <custom_root_template><![CDATA[]]></custom_root_template>
+      <custom_layout_update_xml><![CDATA[]]></custom_layout_update_xml>
+      <custom_theme_from><![CDATA[]]></custom_theme_from>
+      <custom_theme_to><![CDATA[]]></custom_theme_to>
+    </page>
+    <page id="10">
+      <title><![CDATA[GalaBigShop Widgets Demo]]></title>
+      <identifier><![CDATA[galabigshop_widgets]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<h2>Demo EM Slideshow Widget</h2>
+<div class="grid_12 alpha" style="margin-bottom: 20px;">{{widget type="slideshow2/slideshow2" slideshow="1"}}</div>
+<div class="clear">&nbsp;</div>
+<hr />
+<h2>Demo EM Featured Products Widget</h2>
+<div class="grid_12 alpha">
+<h3>Grid View</h3>
+<div>{{widget type="dynamicproducts/dynamicproducts" order_by="name asc" featured_choose="em_featured" limit_count="4" item_spacing="10" thumbnail_width="280" thumbnail_height="280" show_product_name="true" show_thumbnail="true" show_description="true" show_price="true" show_reviews="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="em_featured_products/featured_grid.phtml"}}</div>
+</div>
+<div class="grid_12 omega">
+<h3>Grid View with column count = 2</h3>
+<div>{{widget type="dynamicproducts/dynamicproducts" order_by="name asc" featured_choose="em_featured" limit_count="6" column_count="2" item_spacing="10" thumbnail_width="280" thumbnail_height="280" show_product_name="true" show_thumbnail="true" show_description="true" show_price="true" show_reviews="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="em_featured_products/featured_grid.phtml"}}</div>
+</div>
+<div class="clear">&nbsp;</div>
+<hr />
+<div class="grid_24 alpha omega">
+<h3>List View</h3>
+<div>{{widget type="dynamicproducts/dynamicproducts" order_by="name asc" featured_choose="em_featured" limit_count="3" thumbnail_width="200" thumbnail_height="200" show_product_name="true" show_thumbnail="true" show_description="true" show_price="true" show_reviews="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="em_featured_products/featured_list.phtml"}}</div>
+</div>
+<div class="clear">&nbsp;</div>
+<hr />
+<h2>Demo EM Bestseller Products Widget</h2>
+<div class="grid_12 alpha">
+<h3>Grid View</h3>
+<div>{{widget type="bestsellerproducts/list" new_category="3" limit_count="2" frontend_title="Bestseller Products" item_spacing="10" thumbnail_width="280" thumbnail_height="280" show_product_name="true" show_thumbnail="true" alt_img="thumbnail" show_description="true" show_price="true" show_reviews="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="em_bestseller_products/bestseller_grid.phtml"}}</div>
+</div>
+<div class="grid_12 omega">
+<h3>List View</h3>
+<div>{{widget type="bestsellerproducts/list" new_category="3" limit_count="2" frontend_title="Bestseller Products" thumbnail_width="200" thumbnail_height="200" show_product_name="true" show_thumbnail="true" alt_img="thumbnail" show_description="true" show_price="true" show_reviews="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="em_bestseller_products/bestseller_list.phtml"}}</div>
+</div>
+<div class="clear">&nbsp;</div>
+<hr />
+<h2>Demo EM New Products Widget</h2>
+<div class="grid_12 alpha">
+<h3>Grid View</h3>
+<div>{{widget type="newproducts/list" limit_count="2" order_by="name asc" frontend_title="New Products" item_spacing="10" thumbnail_width="280" thumbnail_height="280" show_product_name="true" show_thumbnail="true" show_description="true" show_price="true" show_reviews="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="em_new_products/new_grid.phtml"}}</div>
+</div>
+<div class="grid_12 omega">
+<h3>List View</h3>
+<div>{{widget type="newproducts/list" limit_count="2" order_by="name asc" frontend_title="New Products" thumbnail_width="200" thumbnail_height="200" show_product_name="true" show_thumbnail="true" show_description="true" show_price="true" show_reviews="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="em_new_products/new_list.phtml"}}</div>
+</div>
+<div class="clear">&nbsp;</div>
+<hr />
+<h2>Demo EM Sale Products Widget</h2>
+<div class="grid_12 alpha">
+<h3>Grid View</h3>
+<div>{{widget type="saleproducts/list" order_by="name asc" limit_count="2" frontend_title="Sale Products" item_spacing="10" thumbnail_width="280" thumbnail_height="280" show_product_name="true" show_thumbnail="true" alt_img="thumbnail" show_description="true" show_price="true" show_reviews="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="em_sale_products/sale_grid.phtml"}}</div>
+</div>
+<div class="grid_12 omega">
+<h3>List View</h3>
+<div>{{widget type="saleproducts/list" order_by="name asc" limit_count="10" frontend_title="Sale Products" thumbnail_width="200" thumbnail_height="200" show_product_name="true" show_thumbnail="true" alt_img="thumbnail" show_description="true" show_price="true" show_reviews="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="em_sale_products/sale_list.phtml"}}</div>
+</div>
+<div class="clear">&nbsp;</div>
+<hr />
+<div class="grid_12 alpha">
+<h3>Custom Grid View</h3>
+<div>{{widget type="saleproducts/list" order_by="name asc" limit_count="12" frontend_title="Sale Products" item_spacing="10" thumbnail_width="280" thumbnail_height="280" show_product_name="true" show_thumbnail="true" show_description="true" show_price="true" show_reviews="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="em_sale_products/sale_grid.phtml"}}</div>
+</div>
+<div class="grid_12 omega">
+<h3>Custom List View</h3>
+<div>{{widget type="saleproducts/list" order_by="name asc" limit_count="9" frontend_title="Sale Products" thumbnail_width="200" thumbnail_height="200" show_product_name="true" show_thumbnail="true" show_description="true" show_price="true" show_reviews="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="em_sale_products/sale_list.phtml"}}</div>
+</div>
+<div class="clear">&nbsp;</div>
+<hr />
+<h2>Demo EM Slider Widget</h2>
+<div class="grid_12 alpha">
+<h3>Vertical Sliding</h3>
+<div>{{widget type="sliderwidget/slide" instance="39" direction="vertical" container=".products-grid, .products-list" slider_height="550" items_per_slide="1"}}</div>
+</div>
+<div class="grid_12 omega">
+<h3>Horizontal Sliding</h3>
+<div>{{widget type="sliderwidget/slide" instance="39" direction="horizontal" container=".products-grid" items_per_slide="1"}}</div>
+</div>
+<hr />
+<h2>Demo EM Tabs Widget</h2>
+<div class="grid_24 alpha omega">{{widget type="tabs/group" title_1="YTo4OntpOjA7czoxMToiVGl0bGUgVGFiIDEiO2k6MTtzOjA6IiI7aTo0O3M6MDoiIjtpOjU7czowOiIiO2k6NjtzOjA6IiI7aTo3O3M6MDoiIjtpOjM7czowOiIiO2k6MjtzOjA6IiI7fQ==" instance_1="26" title_2="YTo4OntpOjA7czoxMToiVGl0bGUgVGFiIDIiO2k6MTtzOjA6IiI7aTo0O3M6MDoiIjtpOjU7czowOiIiO2k6NjtzOjA6IiI7aTo3O3M6MDoiIjtpOjM7czowOiIiO2k6MjtzOjA6IiI7fQ==" instance_2="27" title_3="YTo4OntpOjA7czoxMToiVGl0bGUgVGFiIDMiO2k6MTtzOjA6IiI7aTo0O3M6MDoiIjtpOjU7czowOiIiO2k6NjtzOjA6IiI7aTo3O3M6MDoiIjtpOjM7czowOiIiO2k6MjtzOjA6IiI7fQ==" instance_3="28" template="emtabs/group.phtml"}}</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+      <root_template><![CDATA[one_column]]></root_template>
+      <meta_keywords><![CDATA[]]></meta_keywords>
+      <meta_description><![CDATA[]]></meta_description>
+      <content_heading><![CDATA[]]></content_heading>
+      <sort_order><![CDATA[0]]></sort_order>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <custom_theme><![CDATA[]]></custom_theme>
+      <custom_root_template><![CDATA[]]></custom_root_template>
+      <custom_layout_update_xml><![CDATA[]]></custom_layout_update_xml>
+      <custom_theme_from><![CDATA[]]></custom_theme_from>
+      <custom_theme_to><![CDATA[]]></custom_theme_to>
+    </page>
+  </cmspage>
+  <megamenu>
+    <menu id="5">
+      <name><![CDATA[GalaBigShop Horizontal Menu]]></name>
+      <identifier><![CDATA[autoupdate_5_galabigshop_horizontal_menu]]></identifier>
+      <description><![CDATA[Coming soon]]></description>
+      <type><![CDATA[0]]></type>
+      <status><![CDATA[1]]></status>
+      <content><![CDATA[[{"type":"link","label":"Fashion","sublabel":"","url":"{{store direct_url=''}}furniture.html","target":"","css_class":"","container_css":"","depth":"0"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"grid_8","container_css":"","depth":"1"},{"type":"text","text":"PHAgY2xhc3M9Img0Ij5GYXNoaW9uPC9wPg==","css_class":"","container_css":"","depth":"2"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"grid_8","container_css":"","depth":"1"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"grid_4 alpha","container_css":"","depth":"2"},{"type":"text","text":"PGg1PkxvcmVtIElwc3VtPC9oNT4KPGRpdj57e3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzEyIn19PC9kaXY+Cg==","css_class":"","container_css":"","depth":"3"},{"type":"text","text":"PGg1IGNsYXNzPSJici10b3AiPkxvcmVtIElwc3VtPC9oNT4KPGRpdj57e3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzE1In19PC9kaXY+","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"grid_4 omega","container_css":"","depth":"2"},{"type":"text","text":"PGg1PkxvcmVtIElwc3VtPC9oNT4KPGRpdj57e3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzEwIn19PC9kaXY+Cg==","css_class":"","container_css":"","depth":"3"},{"type":"text","text":"PGg1IGNsYXNzPSJici10b3AiPkxvcmVtIElwc3VtPC9oNT4KPGRpdj57e3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzE1In19PC9kaXY+","css_class":"","container_css":"","depth":"3"},{"type":"link","label":"Park & Accessories","sublabel":"","url":"{{store direct_url=''}}electronics.html","target":"","css_class":"","container_css":"","depth":"0"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"grid_24","container_css":"","depth":"1"},{"type":"text","text":"PHAgY2xhc3M9Img0Ij5QYXJrICYgQWNjZXNzb3JpZXM8L3A+CjxwIGNsYXNzPSJjb2wtdGl0bGUiPi8vIFRoaXMgaXMgYW4gZXhhbXBsZSBvZiBhIGxhcmdlIGNvbnRhaW5lciB3aXRoIDYgY29sbHVtbnM8L3A+","css_class":"","container_css":"","depth":"2"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"grid_24","container_css":"","depth":"1"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"grid_4 alpha","container_css":"","depth":"2"},{"type":"text","text":"PGg1PkxvcmVtIElwc3VtPC9oNT4KPGRpdj57e3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzEyIn19PC9kaXY+","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"grid_4","container_css":"","depth":"2"},{"type":"text","text":"PGg1PkxvcmVtIElwc3VtPC9oNT4KPGRpdj57e3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzEyIn19PC9kaXY+","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"grid_4","container_css":"","depth":"2"},{"type":"text","text":"PGg1PkxvcmVtIElwc3VtPC9oNT4KPGRpdj57e3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzEyIn19PC9kaXY+","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"grid_4","container_css":"","depth":"2"},{"type":"text","text":"PGg1PkxvcmVtIElwc3VtPC9oNT4KPGRpdj57e3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzEyIn19PC9kaXY+","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"grid_4","container_css":"","depth":"2"},{"type":"text","text":"PGg1PkxvcmVtIElwc3VtPC9oNT4KPGRpdj57e3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzEyIn19PC9kaXY+","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"grid_4 omega","container_css":"","depth":"2"},{"type":"text","text":"PGg1PkxvcmVtIElwc3VtPC9oNT4KPGRpdj57e3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzEyIn19PC9kaXY+","css_class":"","container_css":"","depth":"3"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"grid_24","container_css":"","depth":"1"},{"type":"text","text":"PHAgY2xhc3M9ImNvbC10aXRsZSI+Ly8gSGVyZSBpcyBzb21lIGNvbnRlbnRzIHdpdGggc2lkZSBpbWFnZTwvcD4=","css_class":"","container_css":"","depth":"2"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"grid_24","container_css":"","depth":"1"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"grid_6 alpha","container_css":"","depth":"2"},{"type":"text","text":"PHA+PGEgY2xhc3M9ImltZyIgaHJlZj0iIyI+PGltZyBjbGFzcz0iZmx1aWQiIHNyYz0ie3ttZWRpYSB1cmw9Ind5c2l3eWcvbWVudTQuanBnIn19IiBhbHQ9IiIgLz48L2E+PC9wPg==","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"grid_18 omega","container_css":"","depth":"2"},{"type":"text","text":"PHA+U2VkIHV0IHBlcnNwaWNpYXRpcyB1bmRlIG9tbmlzIGlzdGUgbmF0dXMgZXJyb3Igc2l0IHZvbHVwdGF0ZW0gc2FuZG9sb3JlbXF1ZS4gTGF1ZGFudGl1bSwgdG90YW0gcmVtIGFwZXJpYW0sIGVhcXVlIGlwc2EgcXVhZSBhYiBpbGxvIGludmVudG9yZSB2ZXJpdGF0aXMgZXQgcXVhc2kgYXJjaGl0ZWN0byBiZWF0YWUgdml0YWUgZGljdGEgc3VudCBleHBsaWNhYm8uIDwvcD4KPHA+TmVtbyBlbmltIGlwc2FtIHZvbHVwdGF0ZW0gcXVpYSB2b2x1cHRhcyBzaXQgYXNwZXJuYXR1ciBhdXQgb2RpdCBhdXQgZnVnaXQsIHNlZCBxdWlhLiBTZWQgdXQgcGVyc3BpY2lhdGlzIHVuZGUgb21uaXMgaXN0ZSBuYXR1cyBlcnJvciBzaXQgb2x1cHRhdGVtIHNhbmRvbG9yZW1xdWUuIExhdWRhbnRpdW0sIHRvdGFtIHJlbSBhcGVyaWFtLCBlYXF1ZSBpcHNhIHF1YWUgYWIgaWxsbyBpbnZlbnRvcmUgdmVyaXRhdGlzIGV0IHF1YXNpIGFyY2hpdGVjdG8gYmVhdGFlIHZpdGFlIGRpY3RhIHN1bnQgZXhwbGljYWJvLiA8L3A+CjxwPk5lbW8gZW5pbSBpcHNhbSB2b2x1cHRhdGVtIHF1aWEgdm9sdXB0YXMgc2l0IGFzcGVybmF0dXIgYXV0IG9kaXQgYXV0IGZ1Z2l0LCBzZWQgcXVpYS48L3A+","css_class":"","container_css":"","depth":"3"},{"type":"link","label":"Electronics","sublabel":"","url":"{{store direct_url=''}}apparel.html","target":"","css_class":"","container_css":"","depth":"0"},{"type":"text","text":"PGRpdj57e3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzMifX08L2Rpdj4=","css_class":"","container_css":"","depth":"1"},{"type":"link","label":"Collectibles & Art","sublabel":"","url":"{{store direct_url=''}}furniture.html","target":"","css_class":"","container_css":"","depth":"0"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"grid_24","container_css":"","depth":"1"},{"type":"text","text":"PHAgY2xhc3M9Img0Ij5Db2xsZWN0aWJsZXMgJiBBcnQ8L3A+","css_class":"","container_css":"","depth":"2"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"grid_24","container_css":"","depth":"1"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"grid_8 alpha","container_css":"","depth":"2"},{"type":"text","text":"PHA+PGEgY2xhc3M9ImltZyIgaHJlZj0iIyI+PGltZyBjbGFzcz0iZmx1aWQiIHNyYz0ie3ttZWRpYSB1cmw9Ind5c2l3eWcvbWVudTMuanBnIn19IiBhbHQ9IiIgLz48L2E+PC9wPgo8cD5MYXVkYW50aXVtLCB0b3RhbSByZW0gYXBlcmlhbSwgZWFxdWUgaXBzYSBxdWFlIGFiIGlsbG8gaW52ZW50b3JlIHZlcml0YXRpcyBldCBxdWFzaSBhcmNoaXRlY3RvIGJlYXRhZSB2aXRhZSBkaWN0YSBzdW50IGV4cGxpY2Fiby48L3A+CjxwPk5lbW8gZW5pbSBpcHNhbSB2b2x1cHRhdGVtIHF1aWEgdm9sdXB0YXMgc2l0IGFzcGVybmF0dXIgYXV0IG9kaXQgYXV0IGZ1Z2l0LCBzZWQgcXVpYS48L3A+","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"grid_4","container_css":"","depth":"2"},{"type":"text","text":"PGg1PkxvcmVtIElwc3VtPC9oNT4KPGRpdj57e3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzE1In19PC9kaXY+","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"grid_4","container_css":"","depth":"2"},{"type":"text","text":"PGg1PkxvcmVtIElwc3VtPC9oNT4KPGRpdj57e3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzE1In19PC9kaXY+","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"grid_8 omega","container_css":"","depth":"2"},{"type":"text","text":"PGEgY2xhc3M9ImltZyIgaHJlZj0iaHR0cDovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC9GRXFYV3dQRnVzSSIgb25jbGljaz0idGFyZ2V0PSdfYmxhbmsnIj4KPGltZyBjbGFzcz0iZmx1aWQiIHNyYz0ie3tza2luIHVybD0naW1hZ2VzL21lZGlhL2RlbW8vbWVudV92aWRlby5wbmcnfX0iIGFsdD0iIiAvPgo8L2E+CjxwPk5lbW8gZW5pbSBpcHNhbSB2b2x1cHRhdGVtIHF1aWEgdm9sdXB0YXMgc2l0IGFzcGVybmF0dXIgYXV0IGRvbG9yZW0Kb2RpdCBhdXQgZnVnaXQsIHNlZCBxdWlhLjwvcD4=","css_class":"","container_css":"","depth":"3"},{"type":"link","label":"Home & Garden","sublabel":"","url":"{{store direct_url=''}}electronics.html","target":"","css_class":"","container_css":"","depth":"0"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"grid_24","container_css":"","depth":"1"},{"type":"text","text":"PHAgY2xhc3M9Img0Ij5Ib21lICYgR2FyZGVuPC9wPg==","css_class":"","container_css":"","depth":"2"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"grid_24","container_css":"","depth":"1"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"grid_8 alpha","container_css":"","depth":"2"},{"type":"text","text":"PHA+PGEgY2xhc3M9ImltZyIgaHJlZj0iIyI+PGltZyBjbGFzcz0iZmx1aWQiIHNyYz0ie3ttZWRpYSB1cmw9Ind5c2l3eWcvbWVudTMuanBnIn19IiBhbHQ9IiIgLz48L2E+PC9wPgo8cD5MYXVkYW50aXVtLCB0b3RhbSByZW0gYXBlcmlhbSwgZWFxdWUgaXBzYSBxdWFlIGFiIGlsbG8gaW52ZW50b3JlIHZlcml0YXRpcyBldCBxdWFzaSBhcmNoaXRlY3RvIGJlYXRhZSB2aXRhZSBkaWN0YSBzdW50IGV4cGxpY2Fiby48L3A+CjxwPk5lbW8gZW5pbSBpcHNhbSB2b2x1cHRhdGVtIHF1aWEgdm9sdXB0YXMgc2l0IGFzcGVybmF0dXIgYXV0IG9kaXQgYXV0IGZ1Z2l0LCBzZWQgcXVpYS48L3A+","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"grid_4","container_css":"","depth":"2"},{"type":"text","text":"PGg1PkxvcmVtIElwc3VtPC9oNT4KPGRpdj57e3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzE1In19PC9kaXY+","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"grid_4","container_css":"","depth":"2"},{"type":"text","text":"PGg1PkxvcmVtIElwc3VtPC9oNT4KPGRpdj57e3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzE1In19PC9kaXY+","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"grid_4","container_css":"","depth":"2"},{"type":"text","text":"PGg1PkxvcmVtIElwc3VtPC9oNT4KPGRpdj57e3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzE1In19PC9kaXY+","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"grid_4 omega","container_css":"","depth":"2"},{"type":"text","text":"PGRpdiBjbGFzcz0ibm9fcXVpY2tzaG9wIj57e3dpZGdldCB0eXBlPSJuZXdwcm9kdWN0cy9saXN0IiBuZXdfY2F0ZWdvcnk9IjMiIGxpbWl0X2NvdW50PSIxIiBvcmRlcl9ieT0ibmFtZSBhc2MiIGZyb250ZW5kX3RpdGxlPSJOZXcgQXJyaXZhbCIgdGh1bWJuYWlsX3dpZHRoPSIxNjAiIHRodW1ibmFpbF9oZWlnaHQ9IjE2MCIgc2hvd19wcm9kdWN0X25hbWU9InRydWUiIHNob3dfdGh1bWJuYWlsPSJ0cnVlIiBzaG93X2Rlc2NyaXB0aW9uPSJmYWxzZSIgc2hvd19wcmljZT0idHJ1ZSIgc2hvd19yZXZpZXdzPSJ0cnVlIiBzaG93X2FkZHRvY2FydD0iZmFsc2UiIHNob3dfYWRkdG89ImZhbHNlIiBzaG93X2xhYmVsPSJ0cnVlIiBjaG9vc2VfdGVtcGxhdGU9ImVtX25ld19wcm9kdWN0cy9uZXdfZ3JpZC5waHRtbCJ9fTwvZGl2Pg==","css_class":"","container_css":"","depth":"3"},{"type":"link","label":"Women's Clothing","sublabel":"","url":"{{store direct_url=''}}apparel.html","target":"","css_class":"","container_css":"","depth":"0"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"grid_24","container_css":"","depth":"1"},{"type":"text","text":"PHAgY2xhc3M9Img0Ij5Xb21lbidzIENsb3RoaW5nPC9wPgo8cCBjbGFzcz0ibGlzdC1pbWciPjxhIGhyZWY9IiMiPjxpbWcgc3JjPSJ7e21lZGlhIHVybD0id3lzaXd5Zy9pX2xvZ28xLnBuZyJ9fSIgYWx0PSIiIC8+PC9hPjxhIGhyZWY9IiMiPjxpbWcgc3JjPSJ7e21lZGlhIHVybD0id3lzaXd5Zy9pX2xvZ28xLnBuZyJ9fSIgYWx0PSIiIC8+PC9hPjxhIGhyZWY9IiMiPjxpbWcgc3JjPSJ7e21lZGlhIHVybD0id3lzaXd5Zy9pX2xvZ28xLnBuZyJ9fSIgYWx0PSIiIC8+PC9hPjxhIGhyZWY9IiMiPjxpbWcgc3JjPSJ7e21lZGlhIHVybD0id3lzaXd5Zy9pX2xvZ28xLnBuZyJ9fSIgYWx0PSIiIC8+PC9hPjxhIGhyZWY9IiMiPjxpbWcgc3JjPSJ7e21lZGlhIHVybD0id3lzaXd5Zy9pX2xvZ28xLnBuZyJ9fSIgYWx0PSIiIC8+PC9hPjxhIGhyZWY9IiMiPjxpbWcgc3JjPSJ7e21lZGlhIHVybD0id3lzaXd5Zy9pX2xvZ28xLnBuZyJ9fSIgYWx0PSIiIC8+PC9hPjxhIGNsYXNzPSJsYXN0IiBocmVmPSIjIj48aW1nIHNyYz0ie3ttZWRpYSB1cmw9Ind5c2l3eWcvaV9sb2dvMS5wbmcifX0iIGFsdD0iIiAvPjwvYT48L3A+","css_class":"","container_css":"","depth":"2"},{"type":"link","label":"Blog","sublabel":"","url":"{{store direct_url=''}}blog","target":"","css_class":"","container_css":"","depth":"0"},{"type":"link","label":"Daily Deals","sublabel":"","url":"{{store direct_url=''}}apparel.html","target":"","css_class":"","container_css":"","depth":"0"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"grid_4","container_css":"","depth":"1"},{"type":"text","text":"PHAgY2xhc3M9Img0Ij5EYWlseSBEZWFsczwvcD4KPGRpdj57e3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzE1In19PC9kaXY+","css_class":"","container_css":"","depth":"2"}]]]></content>
+      <css_class><![CDATA[]]></css_class>
+    </menu>
+  </megamenu>
+  <slideshows>
+    <slideshow id="1">
+      <name><![CDATA[GalaBigShop Main Slideshow]]></name>
+      <identifier><![CDATA[autoupdate_1_galabigshop_main_slideshow]]></identifier>
+      <description><![CDATA[Coming soon]]></description>
+      <images><![CDATA[[{"url":"1380189275_0_slideshow1.jpg","trans":"demo","slotamount":"7","masterspeed":"","link":"furniture.html","position":"0","video":"0","kenb":"0","kenb_bgfit":"100","kenb_bgfitend":"200","kenb_dura":"3000","info":[{"text":"\u003Cdiv class=\"bkg_color\"\u003E\u003Cp\u003Ebkg_color\u003C\/p\u003E\u003C\/div\u003E","parallax":"0","start":"500","end":"","data_x":"0","data_y":"250","animation":"lft","easing":"easeInOutExpo","speed":"1000"},{"text":"\u003Cp style=\"font-size:370%;color:#fff;font-family:Roboto;font-weight:200;line-height:1\"\u003ESony New 4K TV\u003C\/p\u003E","parallax":"0","start":"1500","end":"","data_x":"20","data_y":"258","animation":"lfl","easing":"easeInOutQuint","speed":"1000"},{"text":"\u003Cp style=\"font-family:Roboto;color:#fff;font-size:130%;font-weight:300;font-style:italic;line-height:1\"\u003ESed ut perspiciatis unde omnis iste natus error sit voluptatem.\u003C\/p\u003E","parallax":"0","start":"2000","end":"","data_x":"20","data_y":"309","animation":"lfr","easing":"easeInOutCubic","speed":"1000"},{"text":"\u003Cp class=\"btn\"\u003E\u003Ca href=\"#\" style=\"line-height:1;font-weight:400;font-family:Roboto;\"\u003ESTART AT $999.00\u003C\/a\u003E\u003C\/p\u003E","parallax":"0","start":"3000","end":"","data_x":"585","data_y":"285","animation":"lfb","easing":"easeInOutBounce","speed":"1000"}]},{"url":"1380248952_0_slideshow3.jpg","trans":"demo","slotamount":"7","masterspeed":"","link":"electronics.html","position":"0","video":"0","kenb":"0","kenb_bgfit":"100","kenb_bgfitend":"200","kenb_dura":"3000","info":[{"text":"\u003Cdiv class=\"bkg_color\"\u003E\u003Cp\u003Ebkg_color\u003C\/p\u003E\u003C\/div\u003E","parallax":"0","start":"500","end":"","data_x":"0","data_y":"250","animation":"sfl","easing":"easeOutBack","speed":"1000"},{"text":"\u003Cp style=\"font-size:370%;color:#fff;font-family:Roboto;font-weight:200;line-height:1\"\u003ESony New 4K TV\u003C\/p\u003E","parallax":"0","start":"1500","end":"","data_x":"20","data_y":"258","animation":"randomrotate","easing":"easeInOutQuint","speed":"1000"},{"text":"\u003Cp style=\"font-family:Roboto;color:#fff;font-size:130%;font-weight:300;font-style:italic;line-height:1\"\u003ESed ut perspiciatis unde omnis iste natus error sit voluptatem.\u003C\/p\u003E","parallax":"0","start":"2000","end":"","data_x":"20","data_y":"309","animation":"lfb","easing":"easeInOutElastic","speed":"1000"},{"text":"\u003Cp class=\"btn\"\u003E\u003Ca href=\"#\" style=\"line-height:1;font-weight:400;font-family:Roboto;\"\u003ESTART AT $999.00\u003C\/a\u003E\u003C\/p\u003E","parallax":"0","start":"2000","end":"","data_x":"585","data_y":"285","animation":"lfr","easing":"easeInOutCirc","speed":"1000"}]},{"url":"1380248952_1_slideshow2.jpg","trans":"demo","slotamount":"7","masterspeed":"","link":"apparel.html","position":"0","video":"0","kenb":"0","kenb_bgfit":"100","kenb_bgfitend":"200","kenb_dura":"3000","info":[{"text":"\u003Cdiv class=\"bkg_color\"\u003E\u003Cp\u003Ebkg_color\u003C\/p\u003E\u003C\/div\u003E","parallax":"0","start":"500","end":"","data_x":"0","data_y":"250","animation":"fade","easing":"easeInOutBack","speed":"1000"},{"text":"\u003Cp style=\"font-size:370%;color:#fff;font-family:Roboto;font-weight:200;line-height:1\"\u003ESony New 4K TV\u003C\/p\u003E","parallax":"0","start":"1500","end":"","data_x":"20","data_y":"258","animation":"sfb","easing":"easeInOutCirc","speed":"1000"},{"text":"\u003Cp style=\"font-family:Roboto;color:#fff;font-size:130%;font-weight:300;font-style:italic;line-height:1\"\u003ESed ut perspiciatis unde omnis iste natus error sit voluptatem.\u003C\/p\u003E","parallax":"0","start":"2000","end":"","data_x":"20","data_y":"309","animation":"sfr","easing":"easeInOutQuad","speed":"1000"},{"text":"\u003Cp class=\"btn\"\u003E\u003Ca href=\"#\" style=\"line-height:1;font-weight:400;font-family:Roboto;\"\u003ESTART AT $999.00\u003C\/a\u003E\u003C\/p\u003E","parallax":"0","start":"3000","end":"","data_x":"585","data_y":"285","animation":"fade","easing":"easeInOutSine","speed":"1000"}]}]]]></images>
+      <slider_type><![CDATA[responsitive]]></slider_type>
+      <slider_params><![CDATA[{"size_width":"880","size_height":"340","screen_width_1":"1200","slider_width_1":"700","screen_width_2":"1000","slider_width_2":"520","screen_width_3":"600","slider_width_3":"430","screen_width_4":"450","slider_width_4":"300","screen_width_5":"380","slider_width_5":"280","screen_width_6":"","slider_width_6":"","screen_width_7":"","slider_width_7":"","screen_width_8":"","slider_width_8":"","screen_width_9":"","slider_width_9":"","screen_width_10":"","slider_width_10":""}]]></slider_params>
+      <delay><![CDATA[5000]]></delay>
+      <touch><![CDATA[on]]></touch>
+      <stop_hover><![CDATA[on]]></stop_hover>
+      <shuffle_mode><![CDATA[off]]></shuffle_mode>
+      <stop_slider><![CDATA[off]]></stop_slider>
+      <stop_after_loop><![CDATA[0]]></stop_after_loop>
+      <stop_at_slide><![CDATA[1]]></stop_at_slide>
+      <position><![CDATA[{"type":"center","mg_top":"0","mg_bottom":"0","mg_left":"0","mg_right":"0"}]]></position>
+      <appearance><![CDATA[{"shadow_type":"0","show_time":"true","time_position":"top","bg_color":"#ffffff","padding":"10","show_bg_img":"false","bg_img":""}]]></appearance>
+      <navigation><![CDATA[{"nav_type":"bullet","nav_arrows":"none","nav_style":"round","nav_offset_hor":"0","nav_offset_vert":"20","nav_always_on":"false","hide_thumbs":"200"}]]></navigation>
+      <thumbnail><![CDATA[{"thumb_width":"100","thumb_height":"50","thumb_amount":"5"}]]></thumbnail>
+      <visibility><![CDATA[{"hide_slider_under":"0","hide_defined_layers_under":"0","hide_all_layers_under":"0"}]]></visibility>
+      <trouble><![CDATA[{"jquery_noconflict":"on","js_to_body":"false"}]]></trouble>
+      <status><![CDATA[1]]></status>
+    </slideshow>
+  </slideshows>
+  <widget_instance>
+    <widget id="1">
+      <instance_id><![CDATA[1]]></instance_id>
+      <title><![CDATA[GalaBigShop Area01  Home Top Ad]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:1:"6";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:1:"1";s:5:"group";s:5:"pages";s:5:"block";s:8:"em_area1";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:15:"cms_index_index";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="3">
+      <instance_id><![CDATA[3]]></instance_id>
+      <title><![CDATA[GalaBigShop Area03 Main Slideshow]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:1:{s:9:"slideshow";s:1:"1";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:1:"3";s:5:"group";s:5:"pages";s:5:"block";s:8:"em_area3";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:15:"cms_index_index";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[slideshow2/slideshow2]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="11">
+      <instance_id><![CDATA[11]]></instance_id>
+      <title><![CDATA[GalaBigShop Main TabAll]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:26:{s:12:"new_category";a:1:{i:0;s:1:"3";}s:11:"limit_count";s:2:"16";s:12:"column_count";s:0:"";s:9:"use_click";s:1:"1";s:8:"order_by";s:8:"name asc";s:12:"custom_class";s:17:"category-products";s:14:"frontend_title";s:0:"";s:20:"frontend_description";s:0:"";s:10:"item_width";s:3:"280";s:11:"item_height";s:0:"";s:12:"item_spacing";s:0:"";s:10:"item_class";s:0:"";s:15:"thumbnail_width";s:3:"280";s:16:"thumbnail_height";s:3:"280";s:17:"show_product_name";s:1:"1";s:14:"show_thumbnail";s:1:"1";s:7:"alt_img";s:0:"";s:16:"show_description";s:1:"0";s:10:"show_price";s:1:"1";s:12:"show_reviews";s:1:"1";s:14:"show_addtocart";s:1:"1";s:10:"show_addto";s:1:"1";s:10:"show_label";s:1:"1";s:15:"choose_template";s:15:"custom_template";s:12:"custom_theme";s:0:"";s:14:"cache_lifetime";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:0:{}]]></page_groups>
+      <instance_type><![CDATA[ajaxproducts/list]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="12">
+      <instance_id><![CDATA[12]]></instance_id>
+      <title><![CDATA[GalaBigShop Main Tab02]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:26:{s:12:"new_category";a:1:{i:0;s:2:"13";}s:11:"limit_count";s:2:"16";s:12:"column_count";s:0:"";s:9:"use_click";s:1:"1";s:8:"order_by";s:8:"name asc";s:12:"custom_class";s:17:"category-products";s:14:"frontend_title";s:0:"";s:20:"frontend_description";s:0:"";s:10:"item_width";s:3:"280";s:11:"item_height";s:0:"";s:12:"item_spacing";s:0:"";s:10:"item_class";s:0:"";s:15:"thumbnail_width";s:3:"280";s:16:"thumbnail_height";s:3:"280";s:17:"show_product_name";s:1:"1";s:14:"show_thumbnail";s:1:"1";s:7:"alt_img";s:0:"";s:16:"show_description";s:1:"0";s:10:"show_price";s:1:"1";s:12:"show_reviews";s:1:"1";s:14:"show_addtocart";s:1:"1";s:10:"show_addto";s:1:"1";s:10:"show_label";s:1:"1";s:15:"choose_template";s:15:"custom_template";s:12:"custom_theme";s:0:"";s:14:"cache_lifetime";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:0:{}]]></page_groups>
+      <instance_type><![CDATA[ajaxproducts/list]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="13">
+      <instance_id><![CDATA[13]]></instance_id>
+      <title><![CDATA[GalaBigShop Main Tab03]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:26:{s:12:"new_category";a:1:{i:0;s:2:"18";}s:11:"limit_count";s:2:"16";s:12:"column_count";s:0:"";s:9:"use_click";s:1:"1";s:8:"order_by";s:8:"name asc";s:12:"custom_class";s:17:"category-products";s:14:"frontend_title";s:0:"";s:20:"frontend_description";s:0:"";s:10:"item_width";s:3:"280";s:11:"item_height";s:0:"";s:12:"item_spacing";s:0:"";s:10:"item_class";s:0:"";s:15:"thumbnail_width";s:3:"280";s:16:"thumbnail_height";s:3:"280";s:17:"show_product_name";s:1:"1";s:14:"show_thumbnail";s:1:"1";s:7:"alt_img";s:0:"";s:16:"show_description";s:1:"0";s:10:"show_price";s:1:"1";s:12:"show_reviews";s:1:"1";s:14:"show_addtocart";s:1:"1";s:10:"show_addto";s:1:"1";s:10:"show_label";s:1:"1";s:15:"choose_template";s:15:"custom_template";s:12:"custom_theme";s:0:"";s:14:"cache_lifetime";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:0:{}]]></page_groups>
+      <instance_type><![CDATA[ajaxproducts/list]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="14">
+      <instance_id><![CDATA[14]]></instance_id>
+      <title><![CDATA[GalaBigShop Main Tab04]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:26:{s:12:"new_category";a:1:{i:0;s:2:"10";}s:11:"limit_count";s:2:"16";s:12:"column_count";s:0:"";s:9:"use_click";s:1:"1";s:8:"order_by";s:8:"name asc";s:12:"custom_class";s:17:"category-products";s:14:"frontend_title";s:0:"";s:20:"frontend_description";s:0:"";s:10:"item_width";s:3:"280";s:11:"item_height";s:0:"";s:12:"item_spacing";s:0:"";s:10:"item_class";s:0:"";s:15:"thumbnail_width";s:3:"280";s:16:"thumbnail_height";s:3:"280";s:17:"show_product_name";s:1:"1";s:14:"show_thumbnail";s:1:"1";s:7:"alt_img";s:0:"";s:16:"show_description";s:1:"0";s:10:"show_price";s:1:"1";s:12:"show_reviews";s:1:"1";s:14:"show_addtocart";s:1:"1";s:10:"show_addto";s:1:"1";s:10:"show_label";s:1:"1";s:15:"choose_template";s:15:"custom_template";s:12:"custom_theme";s:0:"";s:14:"cache_lifetime";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:0:{}]]></page_groups>
+      <instance_type><![CDATA[ajaxproducts/list]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="15">
+      <instance_id><![CDATA[15]]></instance_id>
+      <title><![CDATA[GalaBigShop Main Tab05]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:25:{s:11:"limit_count";s:2:"16";s:12:"column_count";s:0:"";s:9:"use_click";s:1:"1";s:8:"order_by";s:8:"name asc";s:12:"custom_class";s:17:"category-products";s:14:"frontend_title";s:0:"";s:20:"frontend_description";s:0:"";s:10:"item_width";s:3:"280";s:11:"item_height";s:0:"";s:12:"item_spacing";s:0:"";s:10:"item_class";s:0:"";s:15:"thumbnail_width";s:3:"280";s:16:"thumbnail_height";s:3:"280";s:17:"show_product_name";s:1:"1";s:14:"show_thumbnail";s:1:"1";s:7:"alt_img";s:0:"";s:16:"show_description";s:1:"0";s:10:"show_price";s:1:"1";s:12:"show_reviews";s:1:"1";s:14:"show_addtocart";s:1:"1";s:10:"show_addto";s:1:"1";s:10:"show_label";s:1:"1";s:15:"choose_template";s:15:"custom_template";s:12:"custom_theme";s:0:"";s:14:"cache_lifetime";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:0:{}]]></page_groups>
+      <instance_type><![CDATA[ajaxproducts/list]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="16">
+      <instance_id><![CDATA[16]]></instance_id>
+      <title><![CDATA[GalaBigShop Main Content Tab]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:31:{s:7:"title_1";a:4:{i:0;s:3:"All";i:1;s:0:"";i:3;s:0:"";i:2;s:0:"";}s:7:"block_1";s:0:"";s:10:"instance_1";s:2:"11";s:7:"title_2";a:4:{i:0;s:11:"Electronics";i:1;s:0:"";i:3;s:0:"";i:2;s:0:"";}s:7:"block_2";s:0:"";s:10:"instance_2";s:2:"12";s:7:"title_3";a:4:{i:0;s:7:"Fashion";i:1;s:0:"";i:3;s:0:"";i:2;s:0:"";}s:7:"block_3";s:0:"";s:10:"instance_3";s:2:"13";s:7:"title_4";a:4:{i:0;s:6:"Office";i:1;s:0:"";i:3;s:0:"";i:2;s:0:"";}s:7:"block_4";s:0:"";s:10:"instance_4";s:2:"14";s:7:"title_5";a:4:{i:0;s:11:"Daily Deals";i:1;s:0:"";i:3;s:0:"";i:2;s:0:"";}s:7:"block_5";s:0:"";s:10:"instance_5";s:2:"15";s:7:"title_6";a:4:{i:0;s:0:"";i:1;s:0:"";i:3;s:0:"";i:2;s:0:"";}s:7:"block_6";s:0:"";s:10:"instance_6";s:0:"";s:7:"title_7";a:4:{i:0;s:0:"";i:1;s:0:"";i:3;s:0:"";i:2;s:0:"";}s:7:"block_7";s:0:"";s:10:"instance_7";s:0:"";s:7:"title_8";a:4:{i:0;s:0:"";i:1;s:0:"";i:3;s:0:"";i:2;s:0:"";}s:7:"block_8";s:0:"";s:10:"instance_8";s:0:"";s:7:"title_9";a:4:{i:0;s:0:"";i:1;s:0:"";i:3;s:0:"";i:2;s:0:"";}s:7:"block_9";s:0:"";s:10:"instance_9";s:0:"";s:8:"title_10";a:4:{i:0;s:0:"";i:1;s:0:"";i:3;s:0:"";i:2;s:0:"";}s:8:"block_10";s:0:"";s:11:"instance_10";s:0:"";s:8:"instance";s:2:"16";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:1:"8";s:5:"group";s:5:"pages";s:5:"block";s:7:"content";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:15:"cms_index_index";s:8:"template";s:18:"emtabs/group.phtml";}}}]]></page_groups>
+      <instance_type><![CDATA[tabs/group]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="17">
+      <instance_id><![CDATA[17]]></instance_id>
+      <title><![CDATA[GalaBigShop Area04 Popular Seaarch]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:1:"9";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:9:"all_pages";s:9:"all_pages";a:6:{s:7:"page_id";s:1:"9";s:5:"group";s:9:"all_pages";s:5:"block";s:8:"em_area4";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:7:"default";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="21">
+      <instance_id><![CDATA[21]]></instance_id>
+      <title><![CDATA[GalaBigShop Sidebar Recent Review Area09]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:19:{s:11:"limit_count";s:1:"3";s:12:"column_count";s:0:"";s:8:"order_by";s:8:"name asc";s:12:"custom_class";s:12:"no_quickshop";s:14:"frontend_title";s:13:"Recent Review";s:10:"item_width";s:0:"";s:11:"item_height";s:0:"";s:12:"item_spacing";s:0:"";s:15:"thumbnail_width";s:2:"70";s:16:"thumbnail_height";s:2:"70";s:17:"show_product_name";s:4:"true";s:7:"alt_img";s:0:"";s:14:"show_thumbnail";s:4:"true";s:10:"show_price";s:4:"true";s:14:"show_addtocart";s:5:"false";s:10:"show_addto";s:5:"false";s:10:"show_label";s:5:"false";s:15:"choose_template";s:48:"em_recentviewproducts/list_products_simple.phtml";s:14:"cache_lifetime";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:2:{i:0;a:2:{s:10:"page_group";s:20:"notanchor_categories";s:20:"notanchor_categories";a:6:{s:7:"page_id";s:2:"13";s:5:"group";s:20:"notanchor_categories";s:5:"block";s:8:"em_area9";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:24:"catalog_category_default";s:8:"template";s:0:"";}}i:1;a:2:{s:10:"page_group";s:17:"anchor_categories";s:17:"anchor_categories";a:6:{s:7:"page_id";s:2:"14";s:5:"group";s:17:"anchor_categories";s:5:"block";s:8:"em_area9";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:24:"catalog_category_layered";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[recentreviewproducts/list]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="22">
+      <instance_id><![CDATA[22]]></instance_id>
+      <title><![CDATA[GalaBigShop Sidebar Category Banner Area09]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"10";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:12:"block_banner";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[1]]></sort_order>
+      <page_groups><![CDATA[a:6:{i:0;a:2:{s:10:"page_group";s:17:"anchor_categories";s:17:"anchor_categories";a:6:{s:7:"page_id";s:2:"15";s:5:"group";s:17:"anchor_categories";s:5:"block";s:4:"left";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:24:"catalog_category_layered";s:8:"template";s:0:"";}}i:1;a:2:{s:10:"page_group";s:20:"notanchor_categories";s:20:"notanchor_categories";a:6:{s:7:"page_id";s:2:"16";s:5:"group";s:20:"notanchor_categories";s:5:"block";s:4:"left";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:24:"catalog_category_default";s:8:"template";s:0:"";}}i:2;a:2:{s:10:"page_group";s:12:"all_products";s:12:"all_products";a:6:{s:7:"page_id";s:2:"17";s:5:"group";s:12:"all_products";s:5:"block";s:5:"right";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:20:"catalog_product_view";s:8:"template";s:0:"";}}i:3;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:2:"23";s:5:"group";s:5:"pages";s:5:"block";s:9:"em_area11";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:14:"blog_post_view";s:8:"template";s:0:"";}}i:4;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:2:"24";s:5:"group";s:5:"pages";s:5:"block";s:9:"em_area11";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:18:"blog_category_view";s:8:"template";s:0:"";}}i:5;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:2:"25";s:5:"group";s:5:"pages";s:5:"block";s:9:"em_area11";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:16:"blog_index_index";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="23">
+      <instance_id><![CDATA[23]]></instance_id>
+      <title><![CDATA[GalaBigshop Horizontal Menu]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:1:{s:4:"menu";s:1:"5";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:9:"all_pages";s:9:"all_pages";a:6:{s:7:"page_id";s:2:"18";s:5:"group";s:9:"all_pages";s:5:"block";s:8:"em_area5";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:7:"default";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[megamenupro/megamenupro]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="24">
+      <instance_id><![CDATA[24]]></instance_id>
+      <title><![CDATA[GalaBigShop Checkout Sidebar Banner Area11]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"11";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:12:"block-banner";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:2:{i:0;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:2:"19";s:5:"group";s:5:"pages";s:5:"block";s:9:"em_area11";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:22:"checkout_onepage_index";s:8:"template";s:0:"";}}i:1;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:2:"20";s:5:"group";s:5:"pages";s:5:"block";s:9:"em_area11";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:16:"customer_account";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="25">
+      <instance_id><![CDATA[25]]></instance_id>
+      <title><![CDATA[GalaBigShop Login Sidebar Banner Area11]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"12";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:12:"block-banner";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:2:{i:0;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:2:"21";s:5:"group";s:5:"pages";s:5:"block";s:9:"em_area11";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:23:"customer_account_create";s:8:"template";s:0:"";}}i:1;a:2:{s:10:"page_group";s:5:"pages";s:5:"pages";a:6:{s:7:"page_id";s:2:"22";s:5:"group";s:5:"pages";s:5:"block";s:9:"em_area11";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:22:"customer_account_login";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="26">
+      <instance_id><![CDATA[26]]></instance_id>
+      <title><![CDATA[GalaBigShop Sample Block  Area 06]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"13";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:12:"all_products";s:12:"all_products";a:6:{s:7:"page_id";s:2:"26";s:5:"group";s:12:"all_products";s:5:"block";s:8:"em_area6";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:20:"catalog_product_view";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="27">
+      <instance_id><![CDATA[27]]></instance_id>
+      <title><![CDATA[GalaBigShop Sample Block Area 07]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"14";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:12:"all_products";s:12:"all_products";a:6:{s:7:"page_id";s:2:"27";s:5:"group";s:12:"all_products";s:5:"block";s:8:"em_area7";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:20:"catalog_product_view";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="28">
+      <instance_id><![CDATA[28]]></instance_id>
+      <title><![CDATA[GalaBigShop Sample Block Area 08]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"15";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:12:"all_products";s:12:"all_products";a:6:{s:7:"page_id";s:2:"28";s:5:"group";s:12:"all_products";s:5:"block";s:8:"em_area8";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:20:"catalog_product_view";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="29">
+      <instance_id><![CDATA[29]]></instance_id>
+      <title><![CDATA[GalaBigShop Sample Block Area 12]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"16";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:12:"all_products";s:12:"all_products";a:6:{s:7:"page_id";s:2:"29";s:5:"group";s:12:"all_products";s:5:"block";s:9:"em_area12";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:20:"catalog_product_view";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="30">
+      <instance_id><![CDATA[30]]></instance_id>
+      <title><![CDATA[GalaBigShop Sample Block Area 10]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"17";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:12:"all_products";s:12:"all_products";a:6:{s:7:"page_id";s:2:"30";s:5:"group";s:12:"all_products";s:5:"block";s:9:"em_area10";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:20:"catalog_product_view";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="31">
+      <instance_id><![CDATA[31]]></instance_id>
+      <title><![CDATA[GalaBigShop Sample Block Area13]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"18";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:12:"all_products";s:12:"all_products";a:6:{s:7:"page_id";s:2:"31";s:5:"group";s:12:"all_products";s:5:"block";s:9:"em_area13";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:20:"catalog_product_view";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="32">
+      <instance_id><![CDATA[32]]></instance_id>
+      <title><![CDATA[GalaBigShop Sample Block Alert Url]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"19";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:12:"all_products";s:12:"all_products";a:6:{s:7:"page_id";s:2:"32";s:5:"group";s:12:"all_products";s:5:"block";s:10:"alert.urls";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:20:"catalog_product_view";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="33">
+      <instance_id><![CDATA[33]]></instance_id>
+      <title><![CDATA[GalaBigShop Sample Block Extra Hint]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"20";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:12:"all_products";s:12:"all_products";a:6:{s:7:"page_id";s:2:"33";s:5:"group";s:12:"all_products";s:5:"block";s:22:"product.info.extrahint";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:20:"catalog_product_view";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="34">
+      <instance_id><![CDATA[34]]></instance_id>
+      <title><![CDATA[GalaBigShop Sample Block Product View Short Description After]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"21";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:12:"all_products";s:12:"all_products";a:6:{s:7:"page_id";s:2:"34";s:5:"group";s:12:"all_products";s:5:"block";s:28:"product.info.short_des_after";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:20:"catalog_product_view";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="35">
+      <instance_id><![CDATA[35]]></instance_id>
+      <title><![CDATA[GalaBigShop Product Collateral Sample Tab1]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"22";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:12:"Custom Tab 1";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:12:"all_products";s:12:"all_products";a:6:{s:7:"page_id";s:2:"35";s:5:"group";s:12:"all_products";s:5:"block";s:33:"product.info.additonal_collateral";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:20:"catalog_product_view";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="36">
+      <instance_id><![CDATA[36]]></instance_id>
+      <title><![CDATA[GalaBigShop Product Collateral Sample TabN]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:5:{s:8:"block_id";s:2:"22";s:12:"custom_class";s:0:"";s:25:"custom_html_wrapper_class";s:0:"";s:22:"custom_html_wrapper_id";s:0:"";s:11:"block_title";s:12:"Custom Tab N";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:12:"all_products";s:12:"all_products";a:6:{s:7:"page_id";s:2:"36";s:5:"group";s:12:"all_products";s:5:"block";s:33:"product.info.additonal_collateral";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:20:"catalog_product_view";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[cmswidget/widget_block]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="37">
+      <instance_id><![CDATA[37]]></instance_id>
+      <title><![CDATA[GalaBigShop Sample Vertical Menu Left ]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:1:{s:4:"menu";s:1:"2";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:9:"all_pages";s:9:"all_pages";a:6:{s:7:"page_id";s:2:"37";s:5:"group";s:9:"all_pages";s:5:"block";s:4:"left";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:7:"default";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[megamenupro/megamenupro]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="38">
+      <instance_id><![CDATA[38]]></instance_id>
+      <title><![CDATA[GalaBigShop Sample Vertical Menu Right]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:1:{s:4:"menu";s:1:"3";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:9:"all_pages";s:9:"all_pages";a:6:{s:7:"page_id";s:2:"38";s:5:"group";s:9:"all_pages";s:5:"block";s:5:"right";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:7:"default";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[megamenupro/megamenupro]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="39">
+      <instance_id><![CDATA[39]]></instance_id>
+      <title><![CDATA[GalaBigShop Sale Products Widgets Demo]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:23:{s:8:"order_by";s:8:"name asc";s:11:"limit_count";s:3:"100";s:12:"column_count";s:0:"";s:12:"custom_class";s:26:"sale_products_demo_widgets";s:14:"frontend_title";s:0:"";s:20:"frontend_description";s:0:"";s:10:"item_width";s:0:"";s:11:"item_height";s:0:"";s:12:"item_spacing";s:0:"";s:15:"thumbnail_width";s:3:"150";s:16:"thumbnail_height";s:3:"150";s:17:"show_product_name";s:4:"true";s:14:"show_thumbnail";s:4:"true";s:7:"alt_img";s:0:"";s:16:"show_description";s:4:"true";s:10:"show_price";s:4:"true";s:12:"show_reviews";s:4:"true";s:14:"show_addtocart";s:4:"true";s:10:"show_addto";s:4:"true";s:10:"show_label";s:4:"true";s:15:"choose_template";s:32:"em_sale_products/sale_grid.phtml";s:12:"custom_theme";s:0:"";s:14:"cache_lifetime";s:0:"";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:0:{}]]></page_groups>
+      <instance_type><![CDATA[saleproducts/list]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+    <widget id="40">
+      <instance_id><![CDATA[40]]></instance_id>
+      <title><![CDATA[Gala BigShop Sample Horizontal Menu]]></title>
+      <store_ids><![CDATA[a:1:{i:0;i:0;}]]></store_ids>
+      <widget_parameters><![CDATA[a:1:{s:4:"menu";s:1:"1";}]]></widget_parameters>
+      <sort_order><![CDATA[0]]></sort_order>
+      <page_groups><![CDATA[a:1:{i:0;a:2:{s:10:"page_group";s:9:"all_pages";s:9:"all_pages";a:6:{s:7:"page_id";s:2:"39";s:5:"group";s:9:"all_pages";s:5:"block";s:8:"em_area5";s:9:"for_value";s:3:"all";s:13:"layout_handle";s:7:"default";s:8:"template";s:0:"";}}}]]></page_groups>
+      <instance_type><![CDATA[megamenupro/megamenupro]]></instance_type>
+      <package_theme><![CDATA[default/galabigshop]]></package_theme>
+    </widget>
+  </widget_instance>
+</sample_data>
